@@ -99,7 +99,7 @@ const sendLink = async(req,res) =>{
         from: 'shoaib7337r.k.o@gmail.com',
         to: user.email,
         subject: 'Password Reset',
-        text: `Your token is ${token} Click on the link https://jade-quokka-4cf686.netlify.app and enter your token and your reset your password`
+        text: `Your token is ${token} Click on the link https://main-reset.netlify.app and enter your token and your reset your password`
       };
       
       transporter.sendMail(mailOptions, function(error, info){
